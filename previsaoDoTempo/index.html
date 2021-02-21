@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Previsao do Tempo - Cobra</title>
+	<link rel="stylesheet" type="text/css" href="css/homestyle.css">
+	<script src="js/temperatura.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="busca">
+			<h1>Dados Meteorologicos Cobra</h1>
+			<input type="text" name="cidade" id="cidade"><br />
+			<input id="btn" type="submit" name="buscar" value="Buscar" onclick="busca()">
+		</div>
+		
+		<div id="dados">
+		</div>
+		
+		<div id="map">
+		</div>
+	</div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEv26N-7uRJmZwRoD_duiBT20FokWufrA" async></script>
+
+</body>
+</html>

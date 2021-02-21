@@ -1,0 +1,62 @@
+body{
+	background: url("../img/bkgr.jpg") no-repeat center center;
+	background-size: cover;
+	background-position: absolute;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+
+#desc{
+	margin: -8px;
+}
+
+input{
+	text-align: center;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#busca{
+	vertical-align: middle;
+	padding: 15px;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+}
+
+#btn{
+	margin-top: 10px;
+}
+
+#dados{
+	margin: auto;
+	width: 80%;
+	padding: 15px;
+	display: none;
+}
+
+#map{
+	display: none;
+	padding: 15px;
+	margin: auto;
+	width: 100vw;
+	height: 100vh;
+	background-color: blue;
+}
+
+p{
+	margin-left: 10px;
+}
