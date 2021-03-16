@@ -1,0 +1,27 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+#home-img{
+    width: 150px;
+    height: 150px;
+}
+#titulo-home{
+    margin: 0;
+    font-size: 24px;
+}
+
+.infos{
+    text-align: center;
+}
+
+#mapa{
+    height: 100%;
+}
+
+#result{
+    height:30vh;
+    display: none;
+}
